@@ -21,6 +21,14 @@
    color: #4f5984;
  }
 
+ .vertical-align {
+   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+   min-height: 100vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
+
 /* Navbar Styling */
 .navbar {
   font-size: 18px;
@@ -56,10 +64,10 @@
   color: #121b3e;
 }
 
-.home {
-  padding-top: 20vh;
+/*.home {
+  padding-top: 80px;
   min-height: 100vh;
-}
+}*/
 
 #name {
   font-family: sans-serif;
@@ -96,11 +104,11 @@
 }
 
 /*About Styling*/
-
+/*
 .about {
   padding-top: 15vh;
   min-height: 100vh;
-}
+}*/
 
 #about-title {
   font-family: sans-serif;
@@ -110,23 +118,9 @@
   color: #4f5984;
 }
 
-.about p {
-  margin-left: 15vw;
-  margin-right: 15vw;
-}
-
-.about ul {
-  margin-left: 20vw;
-}
-
  /*End About Styling*/
 
 /*Start Projects Styling*/
-
-.projects {
-  padding-top: 15vh;
-  min-height: 100vh;
-}
 
 #projects-title {
   margin-bottom: 56px;
@@ -151,10 +145,6 @@
 /*End Projects Styling*/
 
 /*Contact Styling*/
-.contact {
-  padding-top: 15vh;
-  min-height: 96vh;
-}
 
 .contact ul a {
   color: #121b3e;
