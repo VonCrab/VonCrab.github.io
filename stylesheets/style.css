@@ -127,7 +127,7 @@
   margin-bottom: 56px;
 }
 
-.projects div {
+/*.projects div {
   margin-bottom: 16px;
 }
 
@@ -141,7 +141,7 @@
 .projects img:hover {
   -webkit-filter: grayscale(0);
 	filter: grayscale(0);
-}
+}*/
 
 /*End Projects Styling*/
 
