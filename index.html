@@ -1,14 +1,151 @@
 <!DOCTYPE html>
 <html>
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width,initial-scale=1">
- <title>Luke Pensiero Pages</title>
- <meta name="author" content="Luke Pensiero">
- <meta name="description" content="A personal page for Luke Pensiero">
+
+  <title>Personal Portfolio Webpage</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="stylesheets/style.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
- <div id="app"></div>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Luke Pensiero</a>
+      </div>
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navigation Bar -->
+
+  <!-- Home -->
+  <div class="container">
+    <div class="row vertical-align">
+      <div class="col-xs-12 home text-center">
+        <i class="fa fa-laptop" id="logo" aria-hidden="true"></i>
+        <div class="intro-text">
+          <h1 class="" id="name">Luke Pensiero</h1>
+          <h4 class="" id="subname">Web Developer</h4>
+          <ul class="thumbs list-inline">
+            <li>
+              <a href="https://twitter.com/lukepensiero" class="" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;</a>
+            </li>
+            <li>
+              <a href="https://github.com/VonCrab" class="" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>&nbsp;</a>
+            </li>
+            <li>
+              <a href="https://codepen.io/lukepensiero/" class="" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i>&nbsp;</a>
+            </li>
+            <li>
+              <a href="https://medium.com/@lukepensiero" class="" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i>&nbsp;</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/lukepensiero" class="" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  <!-- End Home -->
+
+  <!-- Start About -->
+  <a id="about"></a>
+    <div class="row vertical-align">
+      <div class="col-xs-12 about text-center" id="about">
+        <h1 id="about-title">Welcome to Luke's portfolio</h1>
+        <p class="lead text-left">I am a self-taught web developer who is excited about a future in tech. I enjoy building clean, well-designed experiences and one day hope to become much more involved in software engineering. Here are some of technologies I know:</p>
+        <div class="row">
+          <div class="text-left col-md-4 col-md-offset-4">
+            <p>HTML/CSS</p>
+            <p>JavaScript</p>
+            <p>Python</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- End About -->
+
+  <!-- Start Projects -->
+  <a id="projects"></a>
+    <div class="row vertical-align">
+    <div class="projects" id="projects">
+      <h1 class="text-center" id="projects-title">Projects</h1>
+       <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <a href="https://codepen.io/lukepensiero/full/YXvweP/">
+            <img  src="https://www.dropbox.com/s/3zhdq9wk8wbyh4a/random.PNG?raw=1" class="img-responsive" alt="Random Quote Machine">
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <a href="https://codepen.io/lukepensiero/full/aNEvbx/">
+            <img  src="https://www.dropbox.com/s/1kwpp6mwtcn0ene/george.PNG?raw=1" class="img-responsive" alt="Tribute Page">
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <a href="https://codepen.io/lukepensiero/full/BKeELL/">
+            <img  src="https://www.dropbox.com/s/ri51lyxmozwgmem/weather.PNG?raw=1" class="img-responsive" alt="Weather App">
+          </a>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <a href="https://codepen.io/lukepensiero/full/yNKMrW/">
+            <img  src="https://www.dropbox.com/s/48ftiw0dmheis9z/twitch.JPG?raw=1" class="img-responsive" alt="Twitch App">
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <a href="https://codepen.io/lukepensiero/full/oLLLYq/" target="_blank">
+            <img src="https://www.dropbox.com/s/z05mkpmksi2p80f/wiki.JPG?raw=1" class="img-responsive" alt="Wiki Reader">
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <a href="https://s.codepen.io/lukepensiero/full/EyvyEd"><img src="https://www.dropbox.com/s/mkenn517czpxhjb/Screen%20Shot%202016-09-22%20at%2010.13.39%20AM.png?raw=1" class="img-responsive" alt="JS Calculator"></a>
+       </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <a href="https://codepen.io/lukepensiero/full/ampVBy"><img src="https://www.dropbox.com/s/chouy081kqvjwln/Screen%20Shot%202016-09-22%20at%2010.13.05%20AM.png?raw=1" class="img-responsive" alt="Clock"></a>
+       </div>
+      </div>
+    </div>
+    </div>
+  <!-- End Projects -->
+
+  <!-- Start Contact -->
+  <div class="row vertical-align">
+    <div class="col-xs-12 contact" id="contact">
+      <h1 class="text-center" id="contact-title">Contact Me</h1>
+      <p class="text-center">Feel free to reach out:</p>
+      <ul class="list-unstyled text-center">
+        <li>
+          <a href="mailto:lukepensiero@gmail.com?subject=Hey" class="" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i>lukepensiero@gmail.com</a>
+        </li>
+        <li>
+          <a href="https://twitter.com/lukepensiero" class="" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i>@LukePensiero</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- End Contact -->
+</div>
+  <footer class="text-center">
+    &copy <script type="text/javascript">document.write(new Date().getFullYear());</script> Luke Pensiero
+  </footer>
 </body>
 <script src="./dist/bundle.js"></script>
 </html>
