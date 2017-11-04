@@ -1,0 +1,14 @@
+{
+  "name": "VonCrab.github.io",
+  "version": "1.0.0",
+  "description": "A personal page for Luke Pensiero",
+  "main": "index.js",
+  "repository": "git@github.com:VonCrab/VonCrab.github.io.git",
+  "author": "VonCrab <lukepensiero@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
+}
